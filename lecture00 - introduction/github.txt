@@ -1,0 +1,18 @@
+<criar um diretorio>
+
+explorer
+right-mouse: cria um diretorio
+clique no diretorio (entra nele, vazio)
+right-mouse: opçao dowload git
+escreve o endereço:https://github.com/flalix/curso_python
+baixa tudo
+
+explorer
+no diretorio
+run exe - roda comando
+git clone https://github.com/flalix/curso_python
+
+<download> cria tudo
+
+navegador você ve tudo
+abrir isto com o jupiter
