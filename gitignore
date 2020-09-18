@@ -1,0 +1,19 @@
+# Cache
+__pycache__
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+
+# Settings
+.envrc
+
+logs/
+venv/
+
+*.db
+*.ppt
+*.pptx

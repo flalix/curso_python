@@ -92,3 +92,27 @@ git add *
 git status
 git commit -m 'message'
 git push
+
+### gitignore
+git config --global core.excludesfile ./gitignore  
+
+
+# Cache
+__pycache__
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+
+# Settings
+.envrc
+
+logs/
+venv/
+
+*.db
+*.ppt
+*.pptx
