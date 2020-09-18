@@ -97,6 +97,8 @@ git push
 git config --global core.excludesfile ./gitignore  
 
 
+git rm --cached -r .ipynb_checkpoint/
+
 # Cache
 __pycache__
 .ipynb_checkpoints
