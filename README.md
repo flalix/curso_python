@@ -85,7 +85,6 @@ source venv/bin/activate
 python --version
 
 
-
 ### Comandos git
 
 git add *
@@ -96,8 +95,31 @@ git push
 ### gitignore
 git config --global core.excludesfile ./gitignore  
 
-
 git rm --cached -r .ipynb_checkpoint/
+
+### remove deleted files and dirs
+
+git clean -f -d
+\# edit
+git commit -a
+
+git push
+
+\#------- git clean ---------------------------
+
+\#If you just clean untracked files, run 
+git clean -f
+
+\#If you want to also remove directories, run 
+git clean -f -d
+
+\#If you just want to remove ignored files, run 
+git clean -f -X
+
+\#If you want to remove ignored as well as non-ignored files, run 
+git clean -f -x
+
+
 
 # Cache
 __pycache__
