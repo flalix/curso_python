@@ -7,6 +7,8 @@ import pandas as pd
 
 from scipy import stats
 
+colors = ['yellow', 'blue', 'red']
+
 def stat_asteristics(pval, NS='NS'):
     if pval >= 0.05: return NS
     if pval > 0.01:  return '*'
